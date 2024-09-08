@@ -1,0 +1,34 @@
+h1{
+    color:whitesmoke;
+}
+
+h2{
+    color:brown;
+}
+body{
+letter-spacing: 1.7;
+line-height: 1.7;
+ font-weight: bold;
+ font-style: italic;
+ background-color: pink;  
+ text-transform: capitalize;
+ font-size: 20px; 
+ 
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    animation: moveinleft 3s ease-in;
+}
+@keyframes moveinleft {
+ 0%{
+    transform: translateX(-300px);
+    opacity: 0;
+ }
+ 100%{
+    transform: translateX(0);
+    opacity: 1;
+ }
+}
